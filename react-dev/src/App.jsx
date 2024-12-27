@@ -5,15 +5,17 @@ import './App.css'
 import Counter from './hooks/counter'
 import UseRef from './hooks/useRef'
 import HookTimer from './hooks/HookTimer'
+import CurdOpration from './pages/CurdOpratio'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Counter/>
+     {/* <Counter/>
      <UseRef/>
-     <HookTimer/>
+     <HookTimer/> */}
+<CurdOpration/>
     </>
   )
 }
