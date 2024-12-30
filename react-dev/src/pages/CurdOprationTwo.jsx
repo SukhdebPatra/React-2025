@@ -99,10 +99,10 @@ const CurdOprationTwo = () => {
       <table className="table table-light">
         <thead>
           <tr>
-            <th className="table-primary">Name</th>
-            <th className="table-secondary"> Email</th>
-            <th className="table-warning">Phone</th>
-            <th className="table-danger">Edit/Delete</th>
+            <th className="table-primary text-center">Name</th>
+            <th className="table-secondary text-center"> Email</th>
+            <th className="table-warning text-center">Phone</th>
+            <th className="table-danger text-center">Edit/Delete</th>
           </tr>
         </thead>
         <tbody>
@@ -110,17 +110,17 @@ const CurdOprationTwo = () => {
             addData.map((ele, ind) => {
               return (
                 <tr key={ind}>
-                  <td>{ele.name}</td>
-                  <td>{ele.email}</td>
-                  <td>{ele.phone}</td>
-                  <td>
+                  <td className="text-center">{ele.name}</td>
+                  <td className="text-center">{ele.email}</td>
+                  <td className="text-center">{ele.phone}</td>
+                  <td className="text-center">
                     <i
-                      className="ml-3 mr-3 bi bi-trash3 text-danger"
+                      className="ml-3 mr-3 bi bi-trash3 text-danger text-center"
                       onClick={() => handleDelete(ind)}
                       style={{ cursor: "pointer" }}
                     ></i>{" "}
                     <i
-                      className="ml-3 mr-3 bi bi-pencil text-success"
+                      className="ml-3 mr-3 bi bi-pencil text-success text-center"
                       onClick={() => handleEdit(ind)}
                       style={{ cursor: "pointer", marginLeft: "4%" }}
                     ></i>

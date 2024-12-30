@@ -7,6 +7,7 @@ import UseRef from './hooks/useRef'
 import HookTimer from './hooks/HookTimer'
 import CurdOpration from './pages/CurdOpratio'
 import CurdOprationTwo from './pages/CurdOprationTwo'
+import UserForm from './pages/UserForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,8 @@ function App() {
      <UseRef/>
      <HookTimer/> */}
 {/* <CurdOpration/> */}
-<CurdOprationTwo/>
+{/* <CurdOprationTwo/> */}
+<UserForm/>
     </>
   )
 }
