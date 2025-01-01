@@ -629,64 +629,10 @@
     {
       "id": "13",
       "title": "Bedside Table African Cherry",
-      "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+      "brand": "Furniture Co.",
       "category": "furniture",
       "price": 299.99,
-      "discountPercentage": 9.58,
-      "rating": 4.48,
-      "stock": 16,
-      "tags": [
-        "furniture",
-        "bedside tables"
-      ],
-      "brand": "Furniture Co.",
-      "sku": "OWPLTZYX",
-      "weight": 10,
-      "dimensions": {
-        "width": 25.43,
-        "height": 20.2,
-        "depth": 24.95
-      },
-      "warrantyInformation": "6 months warranty",
-      "shippingInformation": "Ships in 1-2 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Very happy with my purchase!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "John Doe",
-          "reviewerEmail": "john.doe@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Avery Carter",
-          "reviewerEmail": "avery.carter@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Evelyn Sanchez",
-          "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 5,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "2913244159666",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/furniture/Bedside%20Table%20African%20Cherry/1.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Bedside%20Table%20African%20Cherry/2.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Bedside%20Table%20African%20Cherry/3.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Bedside%20Table%20African%20Cherry/thumbnail.png"
+      "rating": 4.48
     },
     {
       "id": "14",
@@ -1170,60 +1116,10 @@
     {
       "id": "23",
       "title": "Eggs",
-      "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+      "brand": "Food",
       "category": "groceries",
       "price": 2.99,
-      "discountPercentage": 5.8,
-      "rating": 4.46,
-      "stock": 10,
-      "tags": [
-        "dairy"
-      ],
-      "sku": "YA617RI7",
-      "weight": 4,
-      "dimensions": {
-        "width": 12.3,
-        "height": 10.99,
-        "depth": 15.53
-      },
-      "warrantyInformation": "3 year warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 2,
-          "comment": "Very unhappy with my purchase!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Mateo Perez",
-          "reviewerEmail": "mateo.perez@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Very happy with my purchase!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Cameron Perez",
-          "reviewerEmail": "cameron.perez@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very happy with my purchase!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Aurora Barnes",
-          "reviewerEmail": "aurora.barnes@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "30 days return policy",
-      "minimumOrderQuantity": 43,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "7095702028776",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/groceries/Eggs/1.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Eggs/thumbnail.png"
+      "rating": 4.46
     },
     {
       "id": "24",
@@ -1422,6 +1318,14 @@
       "category": "Phone",
       "price": "150000",
       "rating": "4.6"
+    },
+    {
+      "id": "30",
+      "title": "Samsung S25",
+      "brand": "Samsung",
+      "category": "Phone",
+      "price": "150000",
+      "rating": "4.1"
     }
   ],
   "total": 194,
