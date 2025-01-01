@@ -18,7 +18,7 @@ const CurdOprationTwo = () => {
     if (editData === null) {
       setAddDta([...addData, input]);
     } else {
-        debugger
+      debugger;
       const updatedData = [...addData];
       updatedData[editData] = input;
       setAddDta(updatedData);

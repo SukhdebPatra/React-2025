@@ -1,0 +1,81 @@
+/* Button.css */
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    outline: none;
+  }
+  
+  /* Default button style */
+  .btn-default {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .btn-default:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-default:active {
+    transform: scale(0.98);
+  }
+  
+  .btn-default:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  /* Primary button style */
+  .btn-primary {
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #16a085;
+  }
+  
+  .btn-primary:active {
+    transform: scale(0.98);
+  }
+  
+  .btn-primary:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  /* Danger button style */
+  .btn-danger {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c0392b;
+  }
+  
+  .btn-danger:active {
+    transform: scale(0.98);
+  }
+  
+  .btn-danger:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  /* Additional custom button classes */
+  .btn-large {
+    font-size: 18px;
+    padding: 16px 32px;
+  }
+  
+  .btn-small {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+  

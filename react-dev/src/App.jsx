@@ -8,6 +8,7 @@ import HookTimer from './hooks/HookTimer'
 import CurdOpration from './pages/CurdOpratio'
 import CurdOprationTwo from './pages/CurdOprationTwo'
 import UserForm from './pages/UserForm'
+import Products from './pages/ApiIntegation/Products'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,8 @@ function App() {
      <HookTimer/> */}
 {/* <CurdOpration/> */}
 {/* <CurdOprationTwo/> */}
-<UserForm/>
+{/* <UserForm/> */}
+<Products/>
     </>
   )
 }
