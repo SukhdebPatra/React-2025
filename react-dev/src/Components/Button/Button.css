@@ -31,20 +31,20 @@
   }
   
   /* Primary button style */
-  .btn-primary {
+  .btn-primaryOne {
     background-color: #1abc9c;
     color: white;
   }
   
-  .btn-primary:hover {
+  .btn-primaryOne:hover {
     background-color: #16a085;
   }
   
-  .btn-primary:active {
+  .btn-primaryOne:active {
     transform: scale(0.98);
   }
   
-  .btn-primary:disabled {
+  .btn-primaryOne:disabled {
     background-color: #bdc3c7;
     cursor: not-allowed;
   }

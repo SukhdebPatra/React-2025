@@ -13,6 +13,7 @@ const Products = () => {
     rating: "",
   });
   const [users, setUsers] = useState([]);
+  const [toggleButton, setToggleButton] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -44,7 +45,7 @@ const Products = () => {
       rating: userInput.rating,
     };
 
-    if (userInput.id) {
+    if (toggleButton == true) {
       // Update the user
       axios
         .put(`http://localhost:3000/products/${userInput.id}`, data)
@@ -53,6 +54,7 @@ const Products = () => {
           setUsers(
             users.map((user) => (user.id === userInput.id ? res.data : user))
           );
+          setToggleButton(false);
           setUserInput({
             id: "",
             title: "",
@@ -72,6 +74,7 @@ const Products = () => {
         .then((res) => {
           console.log(res.data);
           setUsers((prevUsers) => [...prevUsers, res.data]);
+          setToggleButton(false);
           setUserInput({
             id: "",
             title: "",
@@ -95,6 +98,7 @@ const Products = () => {
       .delete(`http://localhost:3000/products/${id}`)
       .then(() => {
         // Correct way to filter the user list after deletion
+        // setUsers(users.filter((user) => user.id !== id));
         setUsers(users.filter((user) => user.id !== id));
       })
       .catch((err) => {
@@ -104,6 +108,7 @@ const Products = () => {
 
   const handleEdit = (id) => {
     const userToEdit = users.find((user) => user.id === id); // Find the user to edit
+    setToggleButton(true);
     if (userToEdit) {
       setUserInput({
         id: userToEdit.id,
@@ -215,7 +220,13 @@ const Products = () => {
               </div>
               <div className="row">
                 <div className="col-3 mt-3">
-                  <button className="btn btn-primary">Submit</button>
+                  <Button
+                    className="btn btn-primaryOne btn-small"
+                    label={toggleButton === true ? "Edit User" : "Add User"}
+                  />
+                  {/* <button className="btn btn-primary">
+                    {toggleButton === true ? "Edit User" : "Add User"}
+                  </button> */}
                 </div>
               </div>
             </div>
