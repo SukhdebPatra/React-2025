@@ -5,13 +5,15 @@ import "./App.css";
 import { Provider } from "react-redux";
 import { store } from "./Redux/store";
 import Form from "./Pages/Form";
+import Apicall from "./Pages/Apicall";
 
 function App() {
   return (
     <Provider store={store}>
       {/* <div className="App"> */}
       <h1 className="text-center">Redux Toolkit Form Example</h1>
-      <Form />
+      <Apicall />
+      {/* <Form /> */}
       {/* </div> */}
     </Provider>
   );
