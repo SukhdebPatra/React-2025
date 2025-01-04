@@ -6,14 +6,16 @@ import { Provider } from "react-redux";
 import { store } from "./Redux/store";
 import Form from "./Pages/Form";
 import Apicall from "./Pages/Apicall";
+import UserForm from "./Pages/UserForm";
 
 function App() {
   return (
     <Provider store={store}>
       {/* <div className="App"> */}
       <h1 className="text-center">Redux Toolkit Form Example</h1>
-      <Apicall />
+      {/* <Apicall /> */}
       {/* <Form /> */}
+      <UserForm/>
       {/* </div> */}
     </Provider>
   );
