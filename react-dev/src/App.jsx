@@ -9,6 +9,10 @@ import CurdOpration from './pages/CurdOpratio'
 import CurdOprationTwo from './pages/CurdOprationTwo'
 import UserForm from './pages/UserForm'
 import Products from './pages/ApiIntegation/Products'
+import Todo from './pages/Todo'
+import CounterEx from './pages/CounterEx'
+import ReverseString from './ReverseString'
+import MultiStepForm from './pages/MultiStepForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +25,11 @@ function App() {
 {/* <CurdOpration/> */}
 {/* <CurdOprationTwo/> */}
 {/* <UserForm/> */}
-<Products/>
+{/* <Products/> */}
+{/* <Todo/>
+<CounterEx/>
+<ReverseString/> */}
+<MultiStepForm/>
     </>
   )
 }
