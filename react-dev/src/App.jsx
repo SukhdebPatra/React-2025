@@ -15,8 +15,6 @@ import ReverseString from './ReverseString'
 import MultiStepForm from './pages/MultiStepForm'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
      {/* <Counter/>
