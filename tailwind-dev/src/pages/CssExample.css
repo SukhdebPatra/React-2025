@@ -1,0 +1,11 @@
+.bg-Color {
+  background-color: rgb(80, 62, 62);
+  margin-top: 10%;
+  padding: 4%;
+  margin: 4%;
+  color: white;
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgb(18, 189, 132);
+}

@@ -9,6 +9,7 @@ console.log(sum(2, 4));
 
 function findMaxNumber(arr) {
   let max = arr[0];
+  console.log(max);
   for (let i = 1; i < arr.length; i++) {
     if (arr[i] > max) {
       max = arr[i];
@@ -67,21 +68,21 @@ console.log(factorial(6), "from factorial");
 
 //7. Write a JavaScript function to check if a given number is prime.
 
-let num = 6;
-let isPrime = true;
+// let num = 6;
+// let isPrime = true;
 
-for (let i = 2; i < num; i++) {
-  if (num % i === 0) {
-    isPrime = false;
-    break; // Exit the loop if we find a divisor
-  }
-}
+// for (let i = 2; i < num; i++) {
+//   if (num % i === 0) {
+//     isPrime = false;
+//     break; // Exit the loop if we find a divisor
+//   }
+// }
 
-if (isPrime) {
-  console.log(`${num} is prime`);
-} else {
-  console.log(`${num} is not a prime number`);
-}
+// if (isPrime) {
+//   console.log(`${num} is prime`);
+// } else {
+//   console.log(`${num} is not a prime number`);
+// }
 
 //8.Write a function that determines if two strings are anagrams of each other
 
@@ -154,3 +155,22 @@ function secondSmallest(arr) {
 }
 
 console.log(secondSmallest([10, 12, 9]));
+
+// find prime no from an array
+let list = [23, 3, 5, 7, 9, 2, 4, 6, 8];
+
+function isPrime(num) {
+  if (num <= 1) {
+    return false;
+  }
+
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+let primeNumbers = list.filter(isPrime);
+console.log(`prime numbers in the list ${primeNumbers}`);
