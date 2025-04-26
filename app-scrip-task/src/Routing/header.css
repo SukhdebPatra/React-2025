@@ -1,0 +1,61 @@
+.nav {
+  margin: 0 auto;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.link-style {
+  text-decoration: none;
+  color: inherit;
+}
+
+.h3-text {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.lorem-text {
+  text-align: center;
+  margin: 2% auto 5%;
+  width: 60%;
+}
+@media (max-width: 768px) {
+  .h3-text {
+    font-size: 24px;
+    margin-top: 6%;
+  }
+
+  .lorem-text {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .nav {
+    padding: 0 10px;
+    gap: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .h3-text {
+    font-size: 20px;
+  }
+
+  .lorem-text {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    gap: 8px;
+  }
+}

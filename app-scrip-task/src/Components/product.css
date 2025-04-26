@@ -1,0 +1,62 @@
+.mainDiv {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container {
+  width: 100%;
+}
+
+.sideBar {
+  width: 20%;
+}
+.productList {
+  width: 80%;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
+  gap: 20px;
+  padding: 0 5%;
+  margin-bottom: 5%;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imgtag {
+  width: 100%; /* fill the card's width */
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+@media (max-width: 992px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: 1fr; /* 1 column on phones */
+  }
+
+  .imgtag {
+    max-height: 180px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+}

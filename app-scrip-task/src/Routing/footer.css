@@ -1,0 +1,113 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.newsletter {
+  grid-column: span 4;
+}
+
+.newsletter h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: black;
+  border: none;
+  color: #222;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.links-section h3,
+.contact-section h3,
+.social h3,
+.payments h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.links-section ul,
+.contact-section {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.links-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links-section ul li {
+  margin-bottom: 5px;
+}
+
+.contact-section p {
+  margin: 5px 0;
+}
+
+.currency-note {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.bottom-section {
+  grid-column: span 4;
+  border-top: 1px solid #222;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons,
+.payment-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.payment-icons img {
+  width: 40px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  .bottom-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
